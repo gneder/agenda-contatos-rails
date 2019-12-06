@@ -22,7 +22,7 @@
         <td><%= contact.kind %></td>
         <td><%= link_to t('buttons.show'), contact %></td>
         <td><%= link_to t('buttons.edit'), edit_contact_path(contact) %></td>
-        <td><%= link_to t('buttons.destroy'), contact, method: :delete, data: { confirm: t('messages.confirm') } %></td>
+        <td><%= link_to t('buttons.destroy'), contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,5 +30,5 @@
 
 <br>
 
-<%= link_to 'New Contact', new_contact_path %>
+<%= link_to 'Novo Contato', new_contact_path %>
 </div>

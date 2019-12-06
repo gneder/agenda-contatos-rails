@@ -8,7 +8,11 @@ gem 'lerolero_generator'
 #gera dados falsos
 gem 'faker'
 # Use sqlite3 as the database for Active Record
+<<<<<<< HEAD
 gem 'sqlite3', '~> 1.3.6'
+=======
+gem 'sqlite3', '~> 1.3.13'
+>>>>>>> 6e3ea9515e34156e2f4c82cbd6a5f605fea0f580
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
