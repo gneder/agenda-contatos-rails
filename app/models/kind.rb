@@ -1,2 +1,2 @@
-class Kind < ActiveRecord::Base
+class Kind < ActiveRecord::Base 
 end

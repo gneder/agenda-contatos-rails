@@ -19,7 +19,7 @@
       <tr>
         <td><%= contact.name %></td>
         <td><%= contact.email %></td>
-        <td><%= contact.kind.description %></td>
+        <td><%= contact.kind %></td>
         <td><%= link_to t('buttons.show'), contact %></td>
         <td><%= link_to t('buttons.edit'), edit_contact_path(contact) %></td>
         <td><%= link_to t('buttons.destroy'), contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>

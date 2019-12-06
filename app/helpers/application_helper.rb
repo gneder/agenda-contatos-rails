@@ -1,4 +1,5 @@
 module ApplicationHelper
+
     ESTADOS_BRASILEIROS = [
     ["Acre", "AC"],
     ["Alagoas", "AL"],
@@ -29,8 +30,24 @@ module ApplicationHelper
     ["Tocantins", "TO"]
   ]
   
-  def options_for_states(selected)
-      options_for_select(ESTADOS_BRASILEIROS, selected)
+
+    TIPO_CONTATO = [ 
+                      ["Amigo"],
+                      ["Parente"],
+                      ["Colega de trabalho"]  
+
+            ]
+
+  def options_for_states
+
+    options_for_select(ESTADOS_BRASILEIROS)
+  
+  end
+
+  def options_for_kind
+
+      options_for_select(TIPO_CONTATO)
+
   end
   
   
