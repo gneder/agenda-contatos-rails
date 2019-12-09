@@ -8,11 +8,11 @@ gem 'lerolero_generator'
 #gera dados falsos
 gem 'faker'
 # Use sqlite3 as the database for Active Record
-<<<<<<< HEAD
+##<<<<<<< HEAD
 gem 'sqlite3', '~> 1.3.6'
-=======
-gem 'sqlite3', '~> 1.3.13'
->>>>>>> 6e3ea9515e34156e2f4c82cbd6a5f605fea0f580
+##=======
+##gem 'sqlite3', '~> 1.3.13'
+##>>>>>>> 6e3ea9515e34156e2f4c82cbd6a5f605fea0f580
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -33,7 +33,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'therubyracer', :platforms => :ruby
 
-gem 'activesupport', '~> 4.2.5'
+gem 'activesupport', '~> 4.2.8'
+
+gem 'bundler', '1.17.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
