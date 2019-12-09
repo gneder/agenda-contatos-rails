@@ -35,7 +35,7 @@ gem 'therubyracer', :platforms => :ruby
 
 gem 'activesupport', '~> 4.2.8'
 
-gem 'bundler', '1.17.1'
+gem 'bundler', '<= 1.17.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
