@@ -37,7 +37,8 @@ gem 'activesupport', '~> 4.2.8'
 
 gem 'bundler', '<= 1.17.1'
 
-
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 
 
 # Use ActiveModel has_secure_password
