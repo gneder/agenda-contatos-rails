@@ -158,7 +158,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (~> 4.2.8)
-  bundler (= 1.17.1)
+  bundler (<= 1.17.1)
   byebug
   coffee-rails (~> 4.1.0)
   faker
