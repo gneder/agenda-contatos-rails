@@ -37,6 +37,8 @@ gem 'activesupport', '~> 4.2.8'
 
 gem 'bundler', '<= 1.17.1'
 
+#gem 'sprockets', '~> 4.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
