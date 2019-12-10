@@ -37,6 +37,8 @@ gem 'activesupport', '~> 4.2.8'
 
 gem 'bundler', '<= 1.17.1'
 
+gem 'uglifier', '>= 1.3.0'
+
 #gem 'sprockets', '~> 4.0'
 
 # Use ActiveModel has_secure_password
