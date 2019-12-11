@@ -14,7 +14,7 @@ gem 'sqlite3', '~> 1.3.6'
 ##gem 'sqlite3', '~> 1.3.13'
 ##>>>>>>> 6e3ea9515e34156e2f4c82cbd6a5f605fea0f580
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+##gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -31,11 +31,21 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'therubyracer', :platforms => :ruby
+#gem 'therubyracer', :platforms => :ruby
+
+gem 'mini_racer', platforms: :ruby
 
 gem 'activesupport', '~> 4.2.8'
 
 gem 'bundler', '<= 1.17.1'
+
+gem 'babel-transpiler'
+
+gem 'bootstrap', '~> 4.4.1'
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
+
 
 #gem 'sprockets', '~> 4.0'
 
