@@ -45,6 +45,7 @@ gem 'bootstrap', '~> 4.4.1'
 
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 
+gem 'minitest-bisect'
 
 
 #gem 'sprockets', '~> 4.0'

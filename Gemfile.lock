@@ -88,8 +88,14 @@ GEM
     mini_racer (0.2.8)
       libv8 (>= 6.9.411)
     minitest (5.13.0)
+    minitest-bisect (1.5.1)
+      minitest-server (~> 1.0)
+      path_expander (~> 1.1)
+    minitest-server (1.0.5)
+      minitest (~> 5.0)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
+    path_expander (1.1.0)
     popper_js (1.14.5)
     rack (1.6.11)
     rack-test (0.6.3)
@@ -171,6 +177,7 @@ DEPENDENCIES
   jquery-rails
   lerolero_generator
   mini_racer
+  minitest-bisect
   rails (= 4.2.8)
   sdoc (~> 0.4.0)
   spring
