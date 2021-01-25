@@ -1,4 +1,4 @@
-<%= form_for(@adress) do |f| %>
+<%= form_for(@adress, html: { class: "basic-grey"}) do |f| %>
   <% if @adress.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@adress.errors.count, "error") %> prohibited this adress from being saved:</h2>
@@ -10,6 +10,8 @@
       </ul>
     </div>
   <% end %>
+
+  <h1>Endereços</h1>
 
   <div class="field">
     <%= f.label :street %><br>
@@ -28,6 +30,7 @@
     <%= f.text_field :contact_id %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Enviar", class: "button" %>
+    <%= link_to 'Voltar', contacts_path, class: "button" %>
   </div>
 <% end %>
